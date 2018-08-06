@@ -12,9 +12,9 @@ if x == 'R' or x == 'r':
 
 elif x == 'D' or x =='d': 
   print('Введите значение диаметра')
-  D = int(input())
-  L = math.pi * D
-  print(D)
+  d = int(input())
+  l = math.pi * d
+  print(l)
   
 else:
   print('Ошибка! Запустите еще раз')
